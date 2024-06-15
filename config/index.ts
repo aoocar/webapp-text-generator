@@ -4,9 +4,9 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const IS_WORKFLOW = `${process.env.NEXT_PUBLIC_APP_TYPE_WORKFLOW}` === 'true'
 export const APP_INFO: AppInfo = {
-  title: 'Text Generator APP',
-  description: 'App description',
-  copyright: '',
+  title: '高考报名AI智能助手',
+  description: '根据分数、地区智能推荐院校，专业',
+  copyright: 'aoobee',
   privacy_policy: '',
   default_language: 'zh-Hans',
 }
