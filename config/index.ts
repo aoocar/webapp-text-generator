@@ -4,8 +4,8 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const IS_WORKFLOW = `${process.env.NEXT_PUBLIC_APP_TYPE_WORKFLOW}` === 'true'
 export const APP_INFO: AppInfo = {
-  title: '高考报名AI智能助手',
-  description: '根据高考分数、地区推荐院校、专业',
+  title: 'Text Generator APP',
+  description: 'App description',
   copyright: '',
   privacy_policy: '',
   default_language: 'zh-Hans',
